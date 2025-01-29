@@ -1,0 +1,113 @@
+body {
+  background-color: #1a1a1a;
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-style: bold;
+}
+
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+.resume-btn {
+  background-color: #0ec5e9;
+}
+.resume-btn a{
+  color: #fff;
+}
+
+.banner{
+  margin-top: 15px;
+}
+
+.banner_img {
+  width: 300px;
+  height: 300px;
+}
+
+.banner_text h1 {
+  color: #00ffff;
+}
+
+.banner_description {
+  width: 400px;
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.social-icon {
+  background-color: #0dcaf0;
+  padding: 5px;
+  border-radius: 50%;
+  color: black;
+  margin-right: 5px;
+}
+
+
+.projects{
+  margin: 10px 25px;
+}
+
+.project1 img{
+  height: 250px;
+  width: 400px;
+}
+
+.slider{
+  margin: 5px;
+}
+.project1 {
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 #808080;
+}
+
+.project1 h3{
+  color:#00FFFF;
+  margin-top: 2px;
+}
+.project1 p{
+  text-align: justify;
+  margin: 5px 12px 5px 5px;
+}
+
+
+.badges{
+   margin-top: 15px;
+}
+
+.badges span{
+  margin-right: 5px;
+}
+.project-icon a{
+  text-decoration: none;
+}
+.project-icon img{
+  width: 20px;
+  height: 20px;
+}
+
+
+.experience {
+  margin-top: 50px;
+}
+.my-education h1 {
+  color:#00FFFF;
+}
+.my-education p{
+  color:#fff;
+}
+
+.experience-tag h3{ 
+   color:#fff;
+}
+.experience-badges {
+  width: 70%;
+}

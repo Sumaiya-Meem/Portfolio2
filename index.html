@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="images/logo.png" alt="" class="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                  <button
+                    class="resume-btn mt-2 text-black rounded"
+                    type="button"
+                  >
+                    <a
+                      href="images/Resume.pdf"
+                      download="Resume.pdf"
+                      class="text-decoration-none"
+                    >
+                      Resume <i class="fas fa-download"></i>
+                    </a>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- banner section -->
+
+        <section
+          class="banner d-flex flex-column flex-lg-row justify-content-around align-items-center"
+        >
+          <div class="banner_text">
+            <h1>HI !</h1>
+            <h1>I'M Sumaiya Meem</h1>
+            <p class="text-white">
+              Competitive Programmer || Full Stack Web Developer
+            </p>
+
+            <p class="text-white banner_description">
+              I am an Full Stack Web Developer specializing in web application
+              development. My experience extends to developing dynamic
+              applications within the React Js, Node Js and MongoDB. I like
+              keeping up with new and developing technologies and open to
+              exploring job opportunities that align with my skill set. I am
+              good at problem solving.
+            </p>
+
+            <i class="fab fa-github social-icon"></i>
+
+            <i class="fab fa-linkedin social-icon"></i>
+
+            <i class="fab fa-youtube social-icon"></i>
+
+            <button class="resume-btn mt-2 rounded" type="button">
+              <a
+                href="images/Resume.pdf"
+                download="Resume.pdf"
+                class="text-decoration-none"
+              >
+                Resume <i class="fas fa-download"></i>
+              </a>
+            </button>
+          </div>
+
+          <div class="">
+            <img src="images/me.jpg" alt="" class="banner_img img-fluid" />
+          </div>
+        </section>
+      </header>
+
+      <!-- Main section start -->
+
+      <section class="portfolio mt-5">
+        <h1 class="text-center text-white">Portfolio</h1>
+
+        <div class="projects">
+          <div
+            class="project1 d-flex flex-column flex-lg-row gap-4 justify-content-around"
+          >
+            <div class="slider">
+              <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="1000"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/1.JPG" class="d-block" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/3.JPG" class="d-block" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/5.JPG" class="d-block" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/2.JPG" class="d-block" alt="..." />
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="images/6.JPG" class="d-block" alt="..." />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <div class="d-flex align-items-center gap-3">
+                  <div><h3 class="">Academia</h3></div>
+                  <div class="project-icon">
+                    <a href="https://academia-bd85b.web.app/">
+                      <img src="images/Vector.png" alt="">
+                    </a>
+                    <a href="https://github.com/Sumaiya-Meem/Academia">
+                     <img src="images/Vector (1).png" alt="">
+                    </a>
+                  </div>
+             </div>
+
+
+              <p class="text-white">
+                An online education website where user buy a course using
+                payment system.The website has dynamic analytic
+                dashboard.Role-based dashboards with secure payments and coupon
+                management.Admin controls for courses, instructors, and
+                notifications.NotificationSystem.Fully responsive design for all
+                devices.
+              </p>
+
+              <div class="badges">
+                <span class="badge bg-secondary">React</span>
+                <span class="badge bg-secondary">Node</span>
+                <span class="badge bg-secondary">MongoDB</span>
+                <span class="badge bg-secondary">Firebase</span>
+                <span class="badge bg-secondary">Tailwind</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project1 d-flex flex-column flex-lg-row gap-4 justify-content-around"
+          >
+            <div class="slider">
+              <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="1000"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/p1.JPG" class="d-block" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/p3.JPG" class="d-block" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/p4.JPG" class="d-block" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/p2.JPG" class="d-block" alt="..." />
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="images/p5.JPG" class="d-block" alt="..." />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <div class="d-flex align-items-center gap-3">
+                   <div><h3 class="">ApartmentHub</h3></div>
+                   <div class="project-icon">
+                     <a href="https://apartmenthub-fb481.web.app">
+                       <img src="images/Vector.png" alt="">
+                     </a>
+                     <a href="https://github.com/Sumaiya-Meem/ApartmentHub">
+                      <img src="images/Vector (1).png" alt="">
+                     </a>
+                   </div>
+              </div>
+
+
+              <p class="text-white">
+                  Apartment management website where admin,member & user has separate dashboard.Customizable dashboards with secure payment processing, coupon
+                  management, and locationmap integration. An announcement
+                  system with a fully responsive design for all devices.
+              </p>
+
+              <div class="badges">
+                <span class="badge bg-secondary">React</span>
+                <span class="badge bg-secondary">Node</span>
+                <span class="badge bg-secondary">MongoDB</span>
+                <span class="badge bg-secondary">Stripe</span>
+                <span class="badge bg-secondary">Firebase</span>
+                <span class="badge bg-secondary">Tailwind</span>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="experience d-flex align-items-center justify-content-around">
+       
+        <div class="experience-tag">
+            <h3>Expertise:</h3>  
+            <div class="experience-badges">
+                  <span class="badge bg-secondary">React.js</span>
+                  <span class="badge bg-secondary">Javascript</span>
+                  <span class="badge bg-secondary">Node.js</span>
+                  <span class="badge bg-secondary">Express.js</span>
+                  <span class="badge bg-secondary">Firebase</span>
+                  <span class="badge bg-secondary">HTML</span>
+                  <span class="badge bg-secondary">Bootstrap</span>
+            </div> 
+
+            <h3 class="mt-5">Comfortable:</h3>  
+            <div class="experience-badges">
+                  <span class="badge bg-secondary">SQL</span>
+                  <span class="badge bg-secondary">Redux</span>
+                  <span class="badge bg-secondary">Socket.io</span>
+                  <span class="badge bg-secondary">AWS</span>
+                  <span class="badge bg-secondary">Docker</span>
+                  <span class="badge bg-secondary">Typescript</span>
+                  <span class="badge bg-secondary">Next.js</span>
+            </div> 
+
+            <h3 class="mt-5">Familiar:</h3>  
+            <div class="experience-badges">
+                  <span class="badge bg-secondary">C++</span>
+                  <span class="badge bg-secondary">Python</span>
+                  <span class="badge bg-secondary">Spring Boot</span>
+                  <span class="badge bg-secondary">Networking</span>
+            </div> 
+
+            <h3 class="mt-5">Tools:</h3>  
+            <div class="experience-badges">
+                  <span class="badge bg-secondary">VS Code</span>
+                  <span class="badge bg-secondary">JIRA</span>
+                  <span class="badge bg-secondary">Trello</span>
+                  <span class="badge bg-secondary">Git</span>
+            </div> 
+
+        </div>
+
+        <div class="my-education">
+            <h1>My Education</h1>
+            <p>B.Sc in Software Engineering</p>
+            <p>University of Barishal,Barishal</p>
+            <p>2018-2024</p>
+        </div>
+
+      </section>
+
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
