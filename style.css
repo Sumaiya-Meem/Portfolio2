@@ -111,3 +111,30 @@ body {
 .experience-badges {
   width: 70%;
 }
+
+.contact {
+  margin-top: 40px;
+}
+
+.contact-form{
+  box-shadow:0 4px 8px 0 #808080;
+  padding: 10px;
+}
+.form-control::placeholder {
+  color: rgba(151, 151, 151, 0.7);
+}
+
+.form-control:focus {
+  background-color: transparent;
+  color: white;
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: none;
+}
+
+.send-btn{
+ color: #00FFFF;
+ background-color: #6C757D;
+  margin-top: 10px;
+  width: 100%;
+  font-weight: bolder;
+}
