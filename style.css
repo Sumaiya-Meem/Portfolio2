@@ -138,3 +138,12 @@ body {
   width: 100%;
   font-weight: bolder;
 }
+
+footer{
+  margin-top: 20px;
+  
+}
+
+footer i{
+  margin: 0 10px;
+}
